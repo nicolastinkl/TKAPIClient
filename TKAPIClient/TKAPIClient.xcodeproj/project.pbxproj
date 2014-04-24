@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93E5C19D19081C5400CD1690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5C19C19081C5400CD1690 /* Foundation.framework */; };
+		93E5C1A219081C5400CD1690 /* TKAPIClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93E5C1A119081C5400CD1690 /* TKAPIClient.h */; };
+		93E5C1A419081C5400CD1690 /* TKAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C1A319081C5400CD1690 /* TKAPIClient.m */; };
+		93E5C1AB19081C5400CD1690 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5C1AA19081C5400CD1690 /* XCTest.framework */; };
+		93E5C1AC19081C5400CD1690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5C19C19081C5400CD1690 /* Foundation.framework */; };
+		93E5C1AE19081C5400CD1690 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5C1AD19081C5400CD1690 /* UIKit.framework */; };
+		93E5C1B119081C5400CD1690 /* libTKAPIClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E5C19919081C5400CD1690 /* libTKAPIClient.a */; };
+		93E5C1B719081C5400CD1690 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93E5C1B519081C5400CD1690 /* InfoPlist.strings */; };
+		93E5C1B919081C5400CD1690 /* TKAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5C1B819081C5400CD1690 /* TKAPIClientTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93E5C1AF19081C5400CD1690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93E5C19119081C5400CD1690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93E5C19819081C5400CD1690;
+			remoteInfo = TKAPIClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93E5C19719081C5400CD1690 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				93E5C1A219081C5400CD1690 /* TKAPIClient.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		93E5C19919081C5400CD1690 /* libTKAPIClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTKAPIClient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E5C19C19081C5400CD1690 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93E5C1A019081C5400CD1690 /* TKAPIClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TKAPIClient-Prefix.pch"; sourceTree = "<group>"; };
+		93E5C1A119081C5400CD1690 /* TKAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAPIClient.h; sourceTree = "<group>"; };
+		93E5C1A319081C5400CD1690 /* TKAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAPIClient.m; sourceTree = "<group>"; };
+		93E5C1A919081C5400CD1690 /* TKAPIClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKAPIClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E5C1AA19081C5400CD1690 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		93E5C1AD19081C5400CD1690 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93E5C1B419081C5400CD1690 /* TKAPIClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKAPIClientTests-Info.plist"; sourceTree = "<group>"; };
+		93E5C1B619081C5400CD1690 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93E5C1B819081C5400CD1690 /* TKAPIClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAPIClientTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93E5C19619081C5400CD1690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5C19D19081C5400CD1690 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E5C1A619081C5400CD1690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5C1AB19081C5400CD1690 /* XCTest.framework in Frameworks */,
+				93E5C1AE19081C5400CD1690 /* UIKit.framework in Frameworks */,
+				93E5C1B119081C5400CD1690 /* libTKAPIClient.a in Frameworks */,
+				93E5C1AC19081C5400CD1690 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93E5C19019081C5400CD1690 = {
+			isa = PBXGroup;
+			children = (
+				93E5C19E19081C5400CD1690 /* TKAPIClient */,
+				93E5C1B219081C5400CD1690 /* TKAPIClientTests */,
+				93E5C19B19081C5400CD1690 /* Frameworks */,
+				93E5C19A19081C5400CD1690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93E5C19A19081C5400CD1690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93E5C19919081C5400CD1690 /* libTKAPIClient.a */,
+				93E5C1A919081C5400CD1690 /* TKAPIClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93E5C19B19081C5400CD1690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93E5C19C19081C5400CD1690 /* Foundation.framework */,
+				93E5C1AA19081C5400CD1690 /* XCTest.framework */,
+				93E5C1AD19081C5400CD1690 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93E5C19E19081C5400CD1690 /* TKAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				93E5C1A119081C5400CD1690 /* TKAPIClient.h */,
+				93E5C1A319081C5400CD1690 /* TKAPIClient.m */,
+				93E5C19F19081C5400CD1690 /* Supporting Files */,
+			);
+			path = TKAPIClient;
+			sourceTree = "<group>";
+		};
+		93E5C19F19081C5400CD1690 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93E5C1A019081C5400CD1690 /* TKAPIClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93E5C1B219081C5400CD1690 /* TKAPIClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				93E5C1B819081C5400CD1690 /* TKAPIClientTests.m */,
+				93E5C1B319081C5400CD1690 /* Supporting Files */,
+			);
+			path = TKAPIClientTests;
+			sourceTree = "<group>";
+		};
+		93E5C1B319081C5400CD1690 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93E5C1B419081C5400CD1690 /* TKAPIClientTests-Info.plist */,
+				93E5C1B519081C5400CD1690 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93E5C19819081C5400CD1690 /* TKAPIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E5C1BC19081C5400CD1690 /* Build configuration list for PBXNativeTarget "TKAPIClient" */;
+			buildPhases = (
+				93E5C19519081C5400CD1690 /* Sources */,
+				93E5C19619081C5400CD1690 /* Frameworks */,
+				93E5C19719081C5400CD1690 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TKAPIClient;
+			productName = TKAPIClient;
+			productReference = 93E5C19919081C5400CD1690 /* libTKAPIClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		93E5C1A819081C5400CD1690 /* TKAPIClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93E5C1BF19081C5400CD1690 /* Build configuration list for PBXNativeTarget "TKAPIClientTests" */;
+			buildPhases = (
+				93E5C1A519081C5400CD1690 /* Sources */,
+				93E5C1A619081C5400CD1690 /* Frameworks */,
+				93E5C1A719081C5400CD1690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93E5C1B019081C5400CD1690 /* PBXTargetDependency */,
+			);
+			name = TKAPIClientTests;
+			productName = TKAPIClientTests;
+			productReference = 93E5C1A919081C5400CD1690 /* TKAPIClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93E5C19119081C5400CD1690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___TINKL___";
+			};
+			buildConfigurationList = 93E5C19419081C5400CD1690 /* Build configuration list for PBXProject "TKAPIClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93E5C19019081C5400CD1690;
+			productRefGroup = 93E5C19A19081C5400CD1690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93E5C19819081C5400CD1690 /* TKAPIClient */,
+				93E5C1A819081C5400CD1690 /* TKAPIClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93E5C1A719081C5400CD1690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5C1B719081C5400CD1690 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93E5C19519081C5400CD1690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5C1A419081C5400CD1690 /* TKAPIClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E5C1A519081C5400CD1690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E5C1B919081C5400CD1690 /* TKAPIClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93E5C1B019081C5400CD1690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93E5C19819081C5400CD1690 /* TKAPIClient */;
+			targetProxy = 93E5C1AF19081C5400CD1690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		93E5C1B519081C5400CD1690 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93E5C1B619081C5400CD1690 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93E5C1BA19081C5400CD1690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		93E5C1BB19081C5400CD1690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93E5C1BD19081C5400CD1690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TKAPIClient.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKAPIClient/TKAPIClient-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93E5C1BE19081C5400CD1690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TKAPIClient.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKAPIClient/TKAPIClient-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		93E5C1C019081C5400CD1690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKAPIClient/TKAPIClient-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TKAPIClientTests/TKAPIClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		93E5C1C119081C5400CD1690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TKAPIClient/TKAPIClient-Prefix.pch";
+				INFOPLIST_FILE = "TKAPIClientTests/TKAPIClientTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93E5C19419081C5400CD1690 /* Build configuration list for PBXProject "TKAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E5C1BA19081C5400CD1690 /* Debug */,
+				93E5C1BB19081C5400CD1690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93E5C1BC19081C5400CD1690 /* Build configuration list for PBXNativeTarget "TKAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E5C1BD19081C5400CD1690 /* Debug */,
+				93E5C1BE19081C5400CD1690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		93E5C1BF19081C5400CD1690 /* Build configuration list for PBXNativeTarget "TKAPIClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93E5C1C019081C5400CD1690 /* Debug */,
+				93E5C1C119081C5400CD1690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93E5C19119081C5400CD1690 /* Project object */;
+}
