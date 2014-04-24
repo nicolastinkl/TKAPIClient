@@ -7,7 +7,6 @@
 //
 
 #import "TKAPIClient.h"
-#import <JSONKit.h>
 
 @implementation TKAPIClient
 
