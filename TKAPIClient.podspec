@@ -14,6 +14,8 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.documentation = {}
+
 # Pod Dependencies
 
+s.dependency 'AFNetworking','JSONKit','SocketRocket','SDWebImage'
 end
