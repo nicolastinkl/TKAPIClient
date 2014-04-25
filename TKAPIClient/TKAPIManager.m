@@ -7,7 +7,15 @@
 //
 
 #import "TKAPIManager.h"
+#import <JSONKit.h>
+#import <AFNetworking.h>
 
 @implementation TKAPIManager
 
+
+- (void) dosomethings
+{
+    NSString * stringjson = [@"{}" JSONString];
+    NSLog(@"stringjson :%@",stringjson);
+}
 @end
