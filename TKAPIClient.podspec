@@ -16,10 +16,8 @@ Pod::Spec.new do |s|
   s.documentation = {}
 
 # Pod Dependencies
-s.dependency = 'AFNetworking'
-s.dependency = 'JSONKit'
-s.dependency = 'SocketRocket' 
-s.dependency = 'SDWebImage' 
-
-
+  s.dependency "JSONKit", "~> 1.4"
+  s.dependency 'AFNetworking', '~> 2.2.3'
+  s.dependency 'SocketRocket', '~> 0.3.1-beta2'
+  s.dependency 'SDWebImage', '~> 3.6'
 end
