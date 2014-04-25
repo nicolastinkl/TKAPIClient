@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'TKAPIClient'
-  s.version      = '1.0.5'
+  s.version      = '1.0.4'
   s.license      =  {:type => 'MIT (LICENSE)'}
   s.homepage     = 'https://github.com/nicolastinkl/TKAPIClient'
   s.authors      =  {'tinkl' => 'nicolastinkl@gmail.com'}
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
 # Source Info
   s.platform     =  :ios, '7.0'
-  s.source       =  {:git => 'git@github.com:nicolastinkl/TKAPIClient.git',:tag=>'1.0.5'}
+  s.source       =  {:git => 'git@github.com:nicolastinkl/TKAPIClient.git',:tag=>'1.0.4'}
   s.source_files = 'TKAPIClient','TKAPIClient/*.{h,m}'
   s.framework    =   'Foundation', 'CoreGraphics', 'UIKit'
 
@@ -17,9 +17,10 @@ Pod::Spec.new do |s|
 
 # Pod Dependencies
 
-s.dependency 'AFNetworking', :path => '~/Documents/project-xcode/iosProjce/TKAPIClient/Pods/AFNetworking'
-s.dependency 'JSONKit', :path => '~/Documents/project-xcode/iosProjce/TKAPIClient/Pods/JSONKit'
-s.dependency 'SDWebImage', :path => '~/Documents/project-xcode/iosProjce/TKAPIClient/Pods/SDWebImage'
-s.dependency 'SocketRocket', :path => '~/Documents/project-xcode/iosProjce/TKAPIClient/Pods/SocketRocket'
+  s.dependency "JSONKit", "~> 1.4"
+    s.dependency 'AFNetworking', '~> 2.2.3'
+      s.dependency 'SocketRocket', '~> 0.3.1-beta2'
+        s.dependency 'SDWebImage', '~> 3.6'
+
 
 end
