@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
   s.documentation = {}
 
 # Pod Dependencies
-#s.dependency , 'AFNetworking' :path=>'../Pods/AFNetworking'
-#s.dependency , 'JSONKit' :path=>'../Pods/JSONKit'
-#s.dependency , 'SocketRocket' :path=>'../Pods/SocketRocket'
-#s.dependency , 'SDWebImage' :path=>'../Pods/SDWebImage'
+s.dependency = 'AFNetworking'
+s.dependency = 'JSONKit'
+s.dependency = 'SocketRocket' 
+s.dependency = 'SDWebImage' 
 
 
 end
