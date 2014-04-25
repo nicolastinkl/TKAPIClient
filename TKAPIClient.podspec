@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
 # Source Info
   s.platform     =  :ios, '7.0'
-  s.source       =  {:git => 'git@github.com:nicolastinkl/TKAPIClient.git', :tag => '1.0.1'}
+  s.source       =  {:git => 'git@github.com:nicolastinkl/TKAPIClient.git'}
   s.source_files = 'TKAPIClient','TKAPIClient/*.{h,m}'
   s.framework    =   'Foundation', 'CoreGraphics', 'UIKit'
 
