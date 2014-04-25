@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
 
 # Pod Dependencies
 
-s.dependency 'AFNetworking','JSONKit','SocketRocket','SDWebImage'
+s.dependency 'AFNetworking' 'JSONKit' 'SocketRocket' 'SDWebImage'
 end
